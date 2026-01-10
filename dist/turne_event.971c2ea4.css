@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  max-height: 500px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.home__img {
+  width: 100%;
+  height: 100%;
+}
+
+.home__text {
+  text-align: center;
+  background-color: #0006;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  line-height: 90px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-y: hidden;
+}
+
+.home__text h1 {
+  color: #fff;
+  display: block;
+}
+
+.home__text__title-six {
+  font-size: 6vw;
+}
+
+.home__text__title-eigth {
+  font-size: 4vw;
+}
+
+.home__text__title-four {
+  font-size: 8.5vw;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.black-to-gray {
+  background-image: linear-gradient(#000c, #0000001a);
+  width: 100%;
+}
+
+.text-up h3 {
+  color: #fff;
+  font-size: 2vw;
+}
+
+.location__list {
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+}
+/*# sourceMappingURL=turne_event.971c2ea4.css.map */

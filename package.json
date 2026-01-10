@@ -1,0 +1,26 @@
+{
+  "name": "turne_event",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleexzAH/turne_event.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AleexzAH/turne_event/issues"
+  },
+  "homepage": "https://github.com/AleexzAH/turne_event#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.3",
+    "parcel": "^2.16.3"
+  }
+}
