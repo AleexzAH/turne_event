@@ -1,3 +1,79 @@
+.location {
+  text-align: justify;
+  margin: 50px 0;
+}
+
+.location .text-aside {
+  color: #fff;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #740b0b, #d81313c4);
+  border-radius: 0 30px 6px 0;
+  align-content: center;
+  width: 60%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+.location .text-aside h3 {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.location__list {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.location__list__div__item {
+  clip-path: polygon(0 1%, 100% 0%, 90% 100%, 0% 100%);
+  color: #fff;
+  background-color: #740b0b99;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 1.3vw;
+  list-style: none;
+}
+
+.action {
+  text-align: justify;
+  background-color: #fff;
+  grid-template-columns: 60% 40%;
+  padding: 20px;
+  display: grid;
+}
+
+.action__item {
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  font-size: 1.3vw;
+  display: grid;
+}
+
+.action__button {
+  text-align: center;
+  align-content: center;
+}
+
+.action__button__item {
+  color: #fff;
+  background-color: #d81313c4;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contador_timer {
+  margin: 30px 0;
+}
+
+.contador_timer .timer {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3vw;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -49,21 +125,24 @@
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 20px;
 }
 
-.black-to-gray {
-  background-image: linear-gradient(#000c, #0000001a);
+.content__principal {
+  background-image: linear-gradient(#0009, #0009), url("show.e88600eb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
 .text-up h3 {
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
   font-size: 2vw;
 }
 
-.location__list {
-  grid-template-columns: repeat(5, 1fr);
-  display: grid;
+.text-up {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=turne_event.971c2ea4.css.map */

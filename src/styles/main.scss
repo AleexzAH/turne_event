@@ -1,3 +1,6 @@
+@use "location";
+@use "action";
+
 * {
     padding: 0;
     margin: 0;
@@ -48,22 +51,27 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
-.black-to-gray {
+.content__principal {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../imagens/show.jpg);
 }
 
 .text-up h3 {
     font-size: 2vw;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
-
-.location {
-    &__list {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
+.text-up {
+    margin-top: 50px;
 }

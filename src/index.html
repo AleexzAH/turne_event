@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/main.scss">
     <title>Turnê Uriel Pinheiro</title>
 </head>
@@ -17,7 +18,7 @@
             <h1 class="home__text__title-four">2026</h1>
         </div>
     </section>
-    <section class="black-to-gray">
+    <section class="content__principal">
         <div class="container">
             <div class="text-up">
                 <h3>10 estados</h3>
@@ -27,54 +28,89 @@
         </div>
         <div class="container">
             <div class="location">
+                <div class="text-aside">
+                    <h3>Confira as cidades:</h3>
+                </div>
                 <ul class="location__list">
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
-                    <li class="location__list__item"></li>
+                    <div class="location__list__div">
+                        <li class="location__list__div__item">Goiânia – GO | 05/06/2026</li>
+                        <li class="location__list__div__item">Anápolis – GO | 06/06/2026</li>
+                        <li class="location__list__div__item">Rio Verde – GO | 07/06/2026</li>
+                        <li class="location__list__div__item">Uberlândia – MG | 09/06/2026</li>
+                        <li class="location__list__div__item">Uberaba – MG | 10/06/2026</li>
+                    </div>
+                    <div class="location__list__div">
+                        <li class="location__list__div__item">Belo Horizonte – MG | 12/06/2026</li>
+                        <li class="location__list__div__item">Divinópolis – MG | 13/06/2026</li>
+                        <li class="location__list__div__item">Ribeirão Preto – SP | 15/06/2026</li>
+                        <li class="location__list__div__item">São J. R. Preto – SP | 16/06/2026</li>
+                        <li class="location__list__div__item">Barretos – SP | 17/06/2026</li>
+                    </div>
+                    <div class="location__list__div">
+                        <li class="location__list__div__item">Campinas – SP | 19/06/2026</li>
+                        <li class="location__list__div__item">Londrina – PR | 21/06/2026</li>
+                        <li class="location__list__div__item">Maringá – PR | 22/06/2026</li>
+                        <li class="location__list__div__item">Cascavel – PR | 23/06/2026</li>
+                        <li class="location__list__div__item">Campo Grande – MS | 25/06/2026</li>
+                    </div>
+                    <div class="location__list__div">
+                        <li class="location__list__div__item">Dourados – MS | 26/06/2026</li>
+                        <li class="location__list__div__item">Cuiabá – MT | 28/06/2026</li>
+                        <li class="location__list__div__item">Rondonópolis – MT | 29/06/2026</li>
+                        <li class="location__list__div__item">Palmas – TO | 01/07/2026</li>
+                        <li class="location__list__div__item">Araguaína – TO | 02/07/2026</li>
+                    </div>
                 </ul>
             </div>
         </div>
         <div class="container">
-            <div>
-                <h3>Falta <span> </span></h3>
+            <div class="contador_timer">
+                <h3 class="timer">Falta <span id="contador"> </span></h3>
             </div>
-            <div>
-                <div>
-                    <p>Primeiro show</p>
-                    <p>Balneário Camburiu - SC</p>
+            <div class="action">
+                <div class="action__item">
+                    <div>
+                        <p><b>Primeiro show</b></p>
+                        <p>Balneário Camburiu - SC</p>
+                    </div>
+                    <div>
+                        <p><b>Data</b></p>
+                        <p>25/02/2026</p>
+                    </div>
+                    <div>
+                        <p><b>Horário</b></p>
+                        <p>Começa ás 22h</p>
+                    </div>
                 </div>
-                <div>
-                    <p>Data</p>
-                    <p>25/02/2026</p>
-                </div>
-                <div>
-                    <p>Horário</p>
-                    <p>Começa ás 22h</p>
+                <div class="action__button">
+                    <a href="#" class="action__button__item"> COMPRAR INGRESSO </a>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div>
+                <h1>URIEL PINHEIRO</h1>
+                <div class="footer-links">
+                    <ul class="footer-links__list">
+                        <li class="footer-links__list__item"><a href="#">Uriel pinheiro</a></li>
+                        <li class="footer-links__list__item"><a href="#">Discografia</a></li>
+                        <li class="footer-links__list__item"><a href="#">Músicas</a></li>
+                        <li class="footer-links__list__item"><a href="#">Covers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <ul class="footer-links__list__icons">
+                        <li class="footer-links__list__icons__item"><a href="#"></a></li>
+                        <li class="footer-links__list__icons__item"><a href="#"></a></li>
+                        <li class="footer-links__list__icons__item"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
