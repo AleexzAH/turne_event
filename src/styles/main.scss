@@ -1,5 +1,6 @@
 @use "location";
 @use "action";
+@use "footer";
 
 * {
     padding: 0;
@@ -9,25 +10,22 @@
 
 .home {
     position: relative;
-    max-height: 500px;
+    max-height: 600px;
     overflow-y: hidden;
 
     &__img {
         width: 100%;
-        height: 100%;
     }
 
     &__text {
         position: absolute;
         top: 0;
         right: 0;
-
-        overflow-y: hidden;
         width: 100%;
         height: 100%;
         text-align: center;
         align-content: center;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         line-height: 90px;
 
         h1 {
@@ -45,13 +43,50 @@
             font-size: 8.5vw;
         }
     } 
+    @media (max-width: 640px) {
+        &__text{
+            line-height: 30px;
+
+            &__title-six {
+                font-size: 8vw;
+            }
+            &__title-eigth {
+                font-size: 6vw;
+            }
+            &__title-four {
+                font-size: 10.5vw;
+            }
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px){ 
+        &__text  {
+            line-height: 80px;
+
+            &__title-six {
+                font-size: 10vw;
+            }
+            &__title-eigth {
+                font-size: 8vw;
+            }
+            &__title-four {
+                font-size: 12.5vw;
+            }
+        }
+        
+    }
+
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+
+    @media (max-width: 640px){
+        width: 100%;
+    }
 }
 
 .content__principal {
@@ -63,15 +98,28 @@
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url(../imagens/show.jpg);
+    url(../imagens/cantor.jpg);
 }
 
 .text-up h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin: 10px 0;
+
+    @media (max-width: 640px){
+        font-size: 4vw;
+    }
 }
 .text-up {
-    margin-top: 50px;
+    margin-top: 80px;
+    @media (max-width: 640px){
+        margin-top: 30px;
+    }
+    @media (min-width:641px) and (max-width: 1023px){
+        h3 {
+            font-size: 6vw;
+        }
+    }
 }
