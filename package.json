@@ -52,7 +52,6 @@
     "is-number": "^7.0.0",
     "json5": "^2.2.3",
     "lightningcss": "^1.30.2",
-    "lightningcss-win32-x64-msvc": "^1.30.2",
     "lmdb": "^2.8.5",
     "micromatch": "^4.0.8",
     "msgpackr": "^1.11.8",
